@@ -40,22 +40,22 @@ const Formulario = ({ setCategoria, setPais }) => {
           <h3 className="w-50">Buscar por país:</h3>
           <Form.Select className="w-50" onChange={handleChange2}>
             <option>Open this select menu</option>
-            <option value="af">Afghanistan</option>
-            <option value="ad">Andorra</option>
+            <option value="br">Brazil</option>
+            <option value="co">Colombia</option>
             <option value="ar">Argentina</option>
             <option value="bo">Bolivia</option>
             <option value="cl">Chile</option>
-            <option value="cn">China</option>
-            <option value="cg">Congo</option>
-            <option value="cw">Curaçao</option>
+            <option value="cu">Cuba</option>
+            <option value="ec">Ecuador</option>
+            <option value="hn">Honduras</option>
             <option value="do">Dominican republic</option>
             <option value="sv">El Salvador</option>
             <option value="hn">Honduras</option>
             <option value="hk">Hong kong</option>
-            <option value="in">India</option>
-            <option value="it">Italy</option>
-            <option value="jp">Japan</option>
-            <option value="ne">Niger</option>
+            <option value="jm">Jamaica</option>
+            <option value="es">Spain</option>
+            <option value="gb">United kingdom	</option>
+            <option value="mx">Mexico</option>
           </Form.Select>
         </Row>
       </Card>
