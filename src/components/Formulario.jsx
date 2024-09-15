@@ -13,8 +13,8 @@ const Formulario = ({ setCategoria, setPais }) => {
 
   return (
     <div>
-      <Card>
-        <Row className="my-5 mx-3">
+      <Card className="mb-5">
+        <Row className="mb-3 mt-5 mx-3">
           <h3 className="w-50">Buscar por categoría:</h3>
           <Form.Select className="w-50" onChange={handleChange}>
             <option>Open this select menu</option>
@@ -36,7 +36,7 @@ const Formulario = ({ setCategoria, setPais }) => {
             <option value="world">world</option>
           </Form.Select>
         </Row>
-        <Row className="my-5 mx-3">
+        <Row className="mb-5 mx-3">
           <h3 className="w-50">Buscar por país:</h3>
           <Form.Select className="w-50" onChange={handleChange2}>
             <option>Open this select menu</option>
