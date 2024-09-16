@@ -21,3 +21,4 @@ Este proyecto es una página de noticias que permite a los usuarios consultar la
 1. Clona este repositorio:
    ```bash
    git clone https://github.com/GabrielHaurane/TP-React-punto-12
+2. Para verlo en internet https://noticiasconpaises12.netlify.app
